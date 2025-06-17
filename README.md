@@ -55,7 +55,6 @@ sample.csv ──▶ main.py
 
 ---
 
-
 ## **5 Next Steps**
 
 * Replace **fuzzywuzzy → rapidfuzz** for LGPL-free speed.
@@ -114,5 +113,5 @@ df.to_csv("canonical.csv", index=False)
 
 ```
 docker buildx build --platform=linux/amd64 -t contractor-resolver:latest --load .
- docker run --rm -it contractor-resolver:latest   
+docker run --rm -it contractor-resolver:latest   
 ```
