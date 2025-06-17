@@ -1,0 +1,6 @@
+pandas
+numpy
+postal
+fuzzywuzzy
+python-Levenshtein
+google-cloud-bigquery
